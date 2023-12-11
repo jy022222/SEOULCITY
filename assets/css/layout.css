@@ -1,0 +1,325 @@
+@charset "utf-8";
+
+.wrapper {
+    min-width: 1340px;
+}
+
+.inner {
+    position: relative;
+    width: 1152px;
+    min-width: 1152px;
+    margin: 0 auto;
+}
+
+header .group_top {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 48px;
+}
+
+header .logo a {
+    display: block;
+    width: 105px;
+    height: 27px;
+    background: url(https://www.seoul.go.kr/res_newseoul/images/icon_set_common.png) no-repeat -5px -165px;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav li {
+    margin-left: 20px;
+}
+
+header nav li:first-child {
+    margin-left: 30px;
+    padding-left: 40px;
+}
+
+header nav li a {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+header nav li a:hover {
+    color: #2292e9;
+}
+
+header .util_area {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 48px;
+}
+
+header .util_area ul {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+header .util_area li {
+    padding: 0 10px;
+}
+
+header .util_area li a {
+    display: block;
+    font-weight: 700;
+}
+
+header .util_area li a:hover {
+    color: #2292e9;
+}
+
+header .lang_area {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header .lang_area select {
+    width: 80px;
+    height: 21px;
+    border: 1px solid #afcfea;
+    padding-left: 2px;
+    box-sizing: border-box;
+    line-height: 21px;
+    font-size: 12px;
+    color: #1e6cb3;
+    background: url(https://www.seoul.go.kr/res_newseoul/images/bg_select_arrow_m.png) no-repeat 96% center;
+    background-size: 8px auto;
+}
+
+header .lang_area button {
+    width: 30px;
+    height: 21px;
+    background: #1e6cb3;
+    color: #fff;
+    font-size: 11px;
+}
+
+header .group_bottom {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 120px;
+}
+
+header .slogan a {
+    display: block;
+    width: 133px;
+    height: 51px;
+    background: url(https://www.seoul.go.kr/res_newseoul/images/common/seoul-slogan.png) no-repeat 0 0;
+    margin: 38px 0 30px;
+}
+
+header .search_area {
+    position: absolute;
+    left: 50%;
+    top: 40px;
+    margin-left: -326px;
+    width: 520px;
+    height: 42px;
+    border: 3px solid #2292e9;
+    box-sizing: border-box;
+}
+
+header .search_area input {
+    width: calc(100% - 42px);
+    height: 38px;
+    box-sizing: border-box;
+    padding: 0 10px;
+    font-size: 16px;
+    color: #767676;
+}
+
+header .search_area input::placeholder {
+    color: #2292e9;
+}
+
+header .search_area .btn_keyboard {
+    position: absolute;
+    top: 10px;
+    right: 42px;
+    width: 29px;
+    height: 16px;
+    background: url(https://www.seoul.go.kr/ksearch/res_newseoul/images/search/keyboard.png);
+}
+
+header .search_area .btn_search {
+    width: 36px;
+    height: 36px;
+    background: url(https://www.seoul.go.kr/res_newseoul/images/icon_set_common.png) no-repeat -32px -97px;
+    float: right;
+}
+
+header .weather_area {
+    position: absolute;
+    right: 0;
+    display: flex;
+    align-items: center;
+    width: 270px;
+    height: 85px;
+}
+
+header .weather_area .icon {
+    display: block;
+    margin-top: 4px;
+    margin-left: 3px;
+}
+
+header .weather_area .info_wrap {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+header .weather_area .temp_box strong {
+    font-size: 25px;
+    margin-right: 5px;
+    font-weight: 700;
+}
+
+header .weather_area .temp_box span {
+    font-size: 16px;
+    letter-spacing: -0.1em;
+}
+
+header .weather_area .dust_box {
+    display: block;
+    margin-top: 7px;
+}
+
+header .weather_area .dust_box span {
+    font-size: 13px;
+    letter-spacing: -1px;
+}
+
+header .weather_area .dust_box span em.normal {
+    color: #009944;
+}
+
+footer .group_link {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+footer .group_link .policy_area ul {
+    display: flex;
+}
+
+footer .group_link .policy_area li {
+    position: relative;
+    padding: 0 10px;
+}
+
+footer .group_link .policy_area li:first-child {
+    padding-left: 0;
+}
+
+footer .group_link .policy_area li a {
+    font-size: 12px;
+    color: #636363;
+}
+
+footer .group_link .policy_area li.terms a {
+    font-weight: 700;
+    color: #000;
+}
+
+footer .group_link .policy_area li:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    width: 1px;
+    height: 14px;
+    background: #dcdcdc;
+}
+
+footer .group_link .policy_area li:first-child:before {
+    display: none;
+}
+
+footer .group_link .sns_area ul {
+    display: flex;
+}
+
+footer .group_link .sns_area li {
+    width: 24px;
+    height: 24px;
+}
+
+footer .group_link .sns_area li~li {
+    margin-left: 12px;
+}
+
+footer .group_link .sns_area li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url(https://www.seoul.go.kr/res_newseoul/images/main/icon_set_sns_202309.png?ver2309) no-repeat
+}
+
+footer .group_link .sns_area .facebook a {
+    background-position: -25px 0;
+}
+
+footer .group_link .sns_area .insta a {
+    background-position: -75px 0;
+}
+
+footer .group_link .sns_area .ytb a {
+    background-position: -125px 0;
+}
+
+footer .group_link .sns_area .twitter a {
+    background-position: -50px 0;
+}
+
+footer .group_link .sns_area .blog a {
+    background-position: -150px 0;
+}
+
+footer .group_link .sns_area .kakaostory a {
+    background-position: -100px 0;
+}
+
+footer .group_link .sns_area .kakaoch a {
+    background-position: -175px 0;
+}
+
+footer .group_info {
+    position: relative;
+    display: flex;
+    padding: 22px 0;
+    border-top: 1px solid #ccc;
+}
+
+footer .group_info .call_area {
+    width: 108px;
+    height: 45px;
+    background: url(https://www.seoul.go.kr/res_newseoul/images/icon_set_common.png) no-repeat -180px 0;
+    margin-right: 40px;
+}
+
+footer .group_info .addr_area p {
+    font-size: 12px;
+    padding-bottom: 2px;
+    color: #636363;
+}
+
+footer .group_info .addr_area .copy {
+    font-size: 11px;
+}
+
+footer .mark_area {
+    position: absolute;
+    bottom: 22px;
+    right: 0;
+}
